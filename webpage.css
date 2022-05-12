@@ -1,0 +1,110 @@
+/*all pages classes needed*/
+.pagebody{
+     /* The image used */
+     background-color: black;
+  background-image: url("webbackground2.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainlogo{
+    display: inline-block;
+    width: 10%;
+    flex-direction: row;
+    text-align: center;
+    line-height: 65px;
+    justify-content: space-between;
+    margin-left: 3%;
+}
+
+.profilename{
+    display: inline-block;
+    height: 10%;
+    width: 7%;
+    text-align: center;
+    line-height: 65px;
+    position: absolute;
+    margin-left: 70%;
+}
+
+.navbar{
+    display: flex;
+    margin-top: 10px;
+    border-width: 3px;
+    border-color: black;
+    border-style: inset;
+    border-left: 0px;
+    border-right: 0px;
+    justify-content: space-around;
+    font-family: 'play', cursive;
+}
+
+.center{
+    text-align: center;
+    font-family: 'play', cursive;
+}
+
+/*main paige classes*/
+.maintext{
+    font-size: larger;
+    font-family: 'play', cursive;
+    margin-left: 10%;
+}
+
+.maintextdrop{
+    margin-top: 300px;
+    font-size: larger;
+    font-family: 'play', cursive;
+    margin-left: 10%;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.collage{
+    margin-top: 75px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 750px;
+    height: 500px;
+}
+
+/*Formpage classes*/
+.fieldclass{
+    margin: auto;
+    padding: 1%;
+    width: 450px;
+}
+
+.centerlayout{
+    margin: auto;
+    text-align: center;
+}
+
+.langalign{
+    text-align: center;
+    margin: auto;
+    width: auto;
+}
+
+/*socials page classes*/
+.info-links{
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column{
+    flex: 50%
+}
